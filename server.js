@@ -5,7 +5,6 @@ require("dotenv").config();
 
 const app = require("./app");
 
-port = process.env.port;
 uri = process.env.uri;
 
 ((async) => {
